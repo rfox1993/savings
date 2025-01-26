@@ -1,5 +1,8 @@
+import pandas as pd
+
 def main():
-    print("Hello from newproj!")
+    s = pd.Series([1, 2, 3])
+    print(s)
 
 
 if __name__ == "__main__":
